@@ -2,12 +2,42 @@ body {
     background-color: #F9FAFB;
 }
 
+header {
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.cover {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .text-white {
-    color: #ffff !important;
+    color: #fff !important;
+}
+
+.text-white a {
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title span {
+    color: rgba(41, 91, 159, 1);
 }
 
 .text-gray {
     color: #9B9B9B;
+}
+
+.bolden {
+    font-weight: bold;
 }
 
 .margin-top-20 {
